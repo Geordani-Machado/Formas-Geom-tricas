@@ -22,7 +22,8 @@ int Menu(){
 	if(escolha >0 & escolha<4){
 		return  escolha;
 	}else{
-		return  -1;
+		cout << "Digite uma opção valida \n \n";
+		return -1;
 	}
 }
 
@@ -47,13 +48,12 @@ void fluxoLogico(int i){
 		*/
   t.calculaArea();
 		break;
-		
 	}
 }
 
 int main() {
 	do{
 		fluxoLogico(Menu());
-	}while(Menu() == -1 || controleMenu==1);
+	}while(controleMenu==1);
 	
 }
