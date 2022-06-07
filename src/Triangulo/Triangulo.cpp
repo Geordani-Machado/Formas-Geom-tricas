@@ -9,5 +9,5 @@
 
 	resultado = (base*altura)/2;
 
-	cout << "a area desse triangulo é de: " << resultado << endl;
+	cout << "a area desse triangulo é de: " << resultado << endl << endl;
 }

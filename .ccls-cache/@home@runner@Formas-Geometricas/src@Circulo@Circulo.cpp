@@ -8,5 +8,5 @@ void Circulo::calculaArea(){
 	cin >> raio;
 	//faz o calculo da area pelo raio
 	resultado = 2 * pi* raio; 
-	cout << "o raio desse circulo é:" << resultado << endl;
+	cout << "o raio desse circulo é:" << resultado << endl << endl;
 }

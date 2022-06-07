@@ -9,7 +9,7 @@
 
 		resultado = base * altura;
 
-		cout << "A area desse retangulo é: " << resultado << endl;
+		cout << "A area desse retangulo é: " << resultado << endl << endl;
 		
 	
 }
