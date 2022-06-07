@@ -7,6 +7,6 @@ void Circulo::calculaArea(){
 	cout << "qual o raio do círculo ?";
 	cin >> raio;
 	//faz o calculo da area pelo raio
-	resultado = pi* raio * raio;
-	cout << "o raio desse circulo é:" << resultado << endl;
+	resultado = 2 * pi* raio; 
+	cout << "o raio desse circulo é:" << resultado << endl << endl;
 }
